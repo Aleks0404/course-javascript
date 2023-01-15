@@ -45,7 +45,7 @@ function sumWithDefaults(a, b = 100) {
  */
 
 function returnFnResult(fn) {
-  return fn('привет');
+  return fn();
 }
 
 /*
