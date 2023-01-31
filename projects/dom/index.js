@@ -1,7 +1,5 @@
 /* ДЗ 4 - работа с DOM */
 
-import { name } from './index.spec';
-
 /*
  Задание 1:
 
