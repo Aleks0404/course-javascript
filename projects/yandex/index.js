@@ -1,6 +1,6 @@
 import { formTemplate, reviewTemplate } from './objects';
 import './chat.html';
-import { getReviews } from './localstorage';
+import { getReviews, addReview } from './localstorage';
 
 let myMap;
 let clusterer;
