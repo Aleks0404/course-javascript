@@ -8,6 +8,14 @@ const usernameInput = document.querySelector('#username');
 const messageInput = document.querySelector('#message');
 const mainChat = document.querySelector('#main');
 
+if (loginBtn.classList.contains('hidden')) {
+  loginBtn.classList.remove('hidden');
+  mainChat.classList.add('hidden');
+} else {
+  loginBtn.classList.add('hidden');
+  mainChat.classList.remove('hidden');
+}
+
 let ws;
 
 const socketServerURL = 'ws://localhost:4000'; //ссылка подключения к websocket серверу (бекэнду), сервер у нас запущен на локальном хосте, мы тут обращаемся к нашему протоколу WS
